@@ -3,40 +3,161 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About — Heart Talks</title>
-<link rel="stylesheet" href="style.css">
+<title>Curry and Commentary — About</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Inter:wght@400;500;600&display=swap');
+ 
+  :root {
+    --bg: #f6f1e9;
+    --ink: #1b1610;
+    --muted: #7a7168;
+    --rule: #ded5c6;
+  }
+ 
+  * { box-sizing: border-box; }
+ 
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: 'Inter', sans-serif;
+  }
+ 
+  header {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 72px 24px 40px;
+    text-align: center;
+  }
+ 
+  .est {
+    font-size: 13px;
+    letter-spacing: 0.18em;
+    color: var(--muted);
+    margin-bottom: 20px;
+  }
+ 
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: clamp(48px, 9vw, 84px);
+    margin: 0 0 28px;
+    line-height: 1.05;
+  }
+ 
+  .tagline {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.5;
+    color: #3c342a;
+    max-width: 520px;
+    margin: 0 auto 40px;
+  }
+ 
+  nav.top {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+  }
+ 
+  nav.top a {
+    color: var(--ink);
+    text-decoration: none;
+    padding-bottom: 6px;
+  }
+ 
+  nav.top a.active {
+    border-bottom: 2px solid var(--ink);
+  }
+ 
+  main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 24px 100px;
+  }
+ 
+  nav.categories {
+    display: flex;
+    gap: 28px;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    padding: 40px 0 24px;
+  }
+ 
+  nav.categories a {
+    color: inherit;
+    text-decoration: none;
+  }
+ 
+  nav.categories a.active {
+    color: var(--ink);
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 4px;
+  }
+ 
+  .section-label {
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+ 
+  hr {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 0 0 32px;
+  }
+ 
+  article h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: clamp(34px, 6vw, 52px);
+    line-height: 1.1;
+    margin: 0 0 24px;
+  }
+ 
+  article p {
+    color: #4a4238;
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 620px;
+  }
+</style>
 </head>
 <body>
-<div class="sky">
-
-  <header class="site-head">
-    <span class="mark">est. 2026</span>
-    <h1>Heart Talks</h1>
-    <p>Exploring the quite, complicated parts of being human</p>
-    <nav class="site-nav">
-      <a href="index.html">Entries</a>
-      <a href="about.html" class="current">About</a>
-    </nav>
-  </header>
-
-  <nav class="genre-nav">
-      <a class="genre-pill" href="index.html">All</a>
-      <a class="genre-pill" href="index.html#sec-pop-culture">Pop Culture</a>
-      <a class="genre-pill" href="index.html#sec-food">Food</a>
-
+ 
+<header>
+  <div class="est">EST. 2026</div>
+  <h1>Curry and Commentary</h1>
+  <p class="tagline">Written by the girl who refuses to let her days be boring.</p>
+  <nav class="top">
+    <a href="index.html">ENTRIES</a>
+    <a href="about.html" class="active">ABOUT</a>
   </nav>
-
-  <main class="page">
-    <div class="entry-meta">About</div>
-    <div class="entry">
-      <h2>Who's writing this</h2>
+</header>
  
-<p>I hate boring. Like, physically cannot handle it. So instead I find adventure in the smallest things &mdash; a weird conversation with a stranger, a Tuesday that didn't need to be interesting but became one anyway. I make friends way too easily (yes, I will talk to you in line at Target). This page is basically that energy, written down.</p>
+<main>
+  <nav class="categories">
+    <a href="#" class="active">ALL</a>
+    <a href="#">POP CULTURE</a>
+    <a href="#">FOOD</a>
+  </nav>
  
-<p>If you'd like to be notified when something new drops, you can reach me at <a href="mailto:nishpalria@gmail.com">nishpalria@gmail.com</a>.</p>
-  </main>
-
-  <footer class="site-foot">Talks about self worth and emotional clarity</footer>
-</div>
+  <div class="section-label">ABOUT</div>
+  <hr>
+ 
+  <article>
+    <h2>Who's writing this</h2>
+    <p>I hate boring. Like, physically cannot handle it. So instead I find adventure in the smallest things — a weird conversation with a stranger, a Tuesday that didn't need to be interesting but became one anyway. I make friends way too easily (yes, I will talk to you in line at Target). This page is basically that energy, written down.</p>
+  </article>
+</main>
+ 
 </body>
 </html>
+
+ 
