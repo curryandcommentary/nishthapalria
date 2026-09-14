@@ -1,3 +1,6 @@
+
+
+Index · HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,128 +8,124 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Curry and Commentary</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Inter:wght@400;500;600&display=swap');
- 
-  :root {
-    --bg: #f6f1e9;
-    --ink: #1b1610;
-    --muted: #7a7168;
-    --rule: #ded5c6;
-  }
- 
-  * { box-sizing: border-box; }
- 
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--ink);
-    font-family: 'Inter', sans-serif;
-  }
- 
-  header {
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 72px 24px 40px;
-    text-align: center;
-  }
- 
-  .est {
-    font-size: 13px;
-    letter-spacing: 0.18em;
-    color: var(--muted);
-    margin-bottom: 20px;
-  }
- 
-  h1 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: clamp(48px, 9vw, 84px);
-    margin: 0 0 28px;
-    line-height: 1.05;
-  }
- 
-  .tagline {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 1.5;
-    color: #3c342a;
-    max-width: 520px;
-    margin: 0 auto 40px;
-  }
- 
-  nav.top {
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-    font-size: 14px;
-    letter-spacing: 0.08em;
-  }
- 
-  nav.top a {
-    color: var(--ink);
-    text-decoration: none;
-    padding-bottom: 6px;
-  }
- 
-  nav.top a.active {
-    border-bottom: 2px solid var(--ink);
-  }
- 
-  main {
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 0 24px 100px;
-  }
- 
-  nav.categories {
-    display: flex;
-    gap: 28px;
-    font-size: 14px;
-    letter-spacing: 0.06em;
-    color: var(--muted);
-    padding: 40px 0 24px;
-  }
- 
-  nav.categories a {
-    color: inherit;
-    text-decoration: none;
-  }
- 
-  nav.categories a.active {
-    color: var(--ink);
-    border-bottom: 2px solid var(--ink);
-    padding-bottom: 4px;
-  }
- 
-  .latest-label {
-    font-size: 13px;
-    letter-spacing: 0.1em;
-    color: var(--muted);
-    margin-bottom: 12px;
-  }
- 
-  hr {
-    border: none;
-    border-top: 1px solid var(--rule);
-    margin: 0 0 32px;
-  }
- 
-  article h2 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: clamp(34px, 6vw, 52px);
-    line-height: 1.1;
-    margin: 0 0 16px;
-  }
- 
-  article p {
-    color: #4a4238;
-    font-size: 17px;
-    line-height: 1.6;
-    max-width: 600px;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Inter:wght@400;500;600&display=swap');
+:root {
+  --bg: #f6f1e9;
+  --ink: #1b1610;
+  --muted: #7a7168;
+  --rule: #ded5c6;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Inter', sans-serif;
+}
+header {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 72px 24px 40px;
+  text-align: center;
+}
+.est {
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: clamp(48px, 9vw, 84px);
+  margin: 0 0 28px;
+  line-height: 1.05;
+}
+.tagline {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #3c342a;
+  max-width: 520px;
+  margin: 0 auto 40px;
+}
+nav.top {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+}
+nav.top a {
+  color: var(--ink);
+  text-decoration: none;
+  padding-bottom: 6px;
+}
+nav.top a.active {
+  border-bottom: 2px solid var(--ink);
+}
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 24px 100px;
+}
+nav.categories {
+  display: flex;
+  gap: 28px;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  padding: 40px 0 24px;
+}
+nav.categories a {
+  color: inherit;
+  text-decoration: none;
+  background: none;
+  border: none;
+  font: inherit;
+  letter-spacing: inherit;
+  cursor: pointer;
+  padding-bottom: 4px;
+}
+nav.categories a.active {
+  color: var(--ink);
+  border-bottom: 2px solid var(--ink);
+}
+.latest-label {
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 0 0 32px;
+}
+.empty-state {
+  color: var(--muted);
+  font-size: 15px;
+  padding: 20px 0;
+  display: none;
+}
+article {
+  margin-bottom: 40px;
+}
+article h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: clamp(34px, 6vw, 52px);
+  line-height: 1.1;
+  margin: 0 0 16px;
+}
+article p {
+  color: #4a4238;
+  font-size: 17px;
+  line-height: 1.6;
+  max-width: 600px;
+}
 </style>
 </head>
 <body>
@@ -142,17 +141,57 @@
 </header>
  
 <main>
-  <nav class="categories">
-    <a href="#" class="active">ALL</a>
-    <a href="#">HUMOR</a>
-    <a href="#">POP CULTURE</a>
-    <a href="#">FOOD</a>
+  <nav class="categories" id="categoryNav">
+    <a href="#" data-category="all" class="active">ALL</a>
+    <a href="#" data-category="humor">HUMOR</a>
+    <a href="#" data-category="pop-culture">POP CULTURE</a>
+    <a href="#" data-category="food">FOOD</a>
   </nav>
  
   <div class="latest-label">LATEST</div>
   <hr>
  
-  <a href="post-22.html" style="text-decoration:none; color:inherit; display:block;">
-  <h2>They Baked Bread in Hot Sand. 1200 Years Later, We Still Eat It.</h2>
-  <p>A short dive into the history behind one of the world's oldest cooking traditions — and why it still holds up today.</p>
-  </a>
+  <div id="postList">
+    <article data-category="food">
+      <a href="post-22.html" style="text-decoration:none; color:inherit; display:block;">
+        <h2>They Baked Bread in Hot Sand. 1200 Years Later, We Still Eat It.</h2>
+        <p>A short dive into the history behind one of the world's oldest cooking traditions — and why it still holds up today.</p>
+      </a>
+    </article>
+  </div>
+ 
+  <div class="empty-state" id="emptyState">No posts in this category yet — check back soon.</div>
+</main>
+ 
+<script>
+  // To categorize a new post, give its <article> a data-category value
+  // matching one of: all, humor, pop-culture, food
+  const nav = document.getElementById('categoryNav');
+  const posts = Array.from(document.querySelectorAll('#postList article'));
+  const emptyState = document.getElementById('emptyState');
+ 
+  nav.addEventListener('click', function (e) {
+    const link = e.target.closest('a[data-category]');
+    if (!link) return;
+    e.preventDefault();
+ 
+    nav.querySelectorAll('a').forEach(a => a.classList.remove('active'));
+    link.classList.add('active');
+ 
+    const category = link.dataset.category;
+    let visibleCount = 0;
+ 
+    posts.forEach(post => {
+      const match = category === 'all' || post.dataset.category === category;
+      post.style.display = match ? '' : 'none';
+      if (match) visibleCount++;
+    });
+ 
+    emptyState.style.display = visibleCount === 0 ? 'block' : 'none';
+  });
+</script>
+ 
+</body>
+</html>
+
+ 
