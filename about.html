@@ -1,132 +1,96 @@
+
+
+About · HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Curry and Commentary</title>
+<title>About · Curry and Commentary</title>
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Inter:wght@400;500;600&display=swap');
- 
-  :root {
-    --bg: #f6f1e9;
-    --ink: #1b1610;
-    --muted: #7a7168;
-    --rule: #ded5c6;
-  }
- 
-  * { box-sizing: border-box; }
- 
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--ink);
-    font-family: 'Inter', sans-serif;
-  }
- 
-  header {
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 72px 24px 40px;
-    text-align: center;
-  }
- 
-  .est {
-    font-size: 13px;
-    letter-spacing: 0.18em;
-    color: var(--muted);
-    margin-bottom: 20px;
-  }
- 
-  h1 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: clamp(48px, 9vw, 84px);
-    margin: 0 0 28px;
-    line-height: 1.05;
-  }
- 
-  .tagline {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 1.5;
-    color: #3c342a;
-    max-width: 520px;
-    margin: 0 auto 40px;
-  }
- 
-  nav.top {
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-    font-size: 14px;
-    letter-spacing: 0.08em;
-  }
- 
-  nav.top a {
-    color: var(--ink);
-    text-decoration: none;
-    padding-bottom: 6px;
-  }
- 
-  nav.top a.active {
-    border-bottom: 2px solid var(--ink);
-  }
- 
-  main {
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 0 24px 100px;
-  }
- 
-  nav.categories {
-    display: flex;
-    gap: 28px;
-    font-size: 14px;
-    letter-spacing: 0.06em;
-    color: var(--muted);
-    padding: 40px 0 24px;
-  }
- 
-  nav.categories a {
-    color: inherit;
-    text-decoration: none;
-  }
- 
-  nav.categories a.active {
-    color: var(--ink);
-    border-bottom: 2px solid var(--ink);
-    padding-bottom: 4px;
-  }
- 
-  .latest-label {
-    font-size: 13px;
-    letter-spacing: 0.1em;
-    color: var(--muted);
-    margin-bottom: 12px;
-  }
- 
-  hr {
-    border: none;
-    border-top: 1px solid var(--rule);
-    margin: 0 0 32px;
-  }
- 
-  article h2 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: clamp(34px, 6vw, 52px);
-    line-height: 1.1;
-    margin: 0 0 16px;
-  }
- 
-  article p {
-    color: #4a4238;
-    font-size: 17px;
-    line-height: 1.6;
-    max-width: 600px;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Inter:wght@400;500;600&display=swap');
+:root {
+  --bg: #f6f1e9;
+  --ink: #1b1610;
+  --muted: #7a7168;
+  --rule: #ded5c6;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Inter', sans-serif;
+}
+header {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 72px 24px 40px;
+  text-align: center;
+}
+.est {
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: clamp(48px, 9vw, 84px);
+  margin: 0 0 28px;
+  line-height: 1.05;
+}
+.tagline {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #3c342a;
+  max-width: 520px;
+  margin: 0 auto 40px;
+}
+nav.top {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+}
+nav.top a {
+  color: var(--ink);
+  text-decoration: none;
+  padding-bottom: 6px;
+}
+nav.top a.active {
+  border-bottom: 2px solid var(--ink);
+}
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 24px 100px;
+}
+.about-label {
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 0 0 32px;
+}
+main p {
+  color: #4a4238;
+  font-size: 17px;
+  line-height: 1.7;
+  margin: 0 0 22px;
+}
+main a {
+  color: var(--ink);
+}
 </style>
 </head>
 <body>
@@ -136,26 +100,22 @@
   <h1>Curry and Commentary</h1>
   <p class="tagline">Written by the girl who refuses to let her days be boring.</p>
   <nav class="top">
-    <a href="index.html" class="active">ENTRIES</a>
-    <a href="about.html">ABOUT</a>
+    <a href="index.html">ENTRIES</a>
+    <a href="about.html" class="active">ABOUT</a>
   </nav>
 </header>
  
 <main>
-  <nav class="categories">
-    <a href="#" class="active">ALL</a>
-    <a href="#">HUMOR</a>
-    <a href="#">POP CULTURE</a>
-    <a href="#">FOOD</a>
-  </nav>
- 
-  <div class="latest-label">LATEST</div>
+  <div class="about-label">ABOUT</div>
   <hr>
  
-  <article>
-    <h2>They Baked Bread in Hot Sand. 1200 Years Later, We Still Eat It.</h2>
-    <p>A short dive into the history behind one of the world's oldest cooking traditions — and why it still holds up today.</p>
-  </article>
+  <p>Hi, I'm Nishtha — a content writer, radio & on-camera host, and storyteller based in San Jose, CA.</p>
+ 
+  <p>I write food, lifestyle, and culture stories for the Bay Area Indian American community, and I got my start as a radio jockey back in India, calling live IPL commentary on air. These days I split my time between writing, hosting, and chronicling the small, funny, and occasionally chaotic parts of being an NRI trying to build a life on the other side of the world.</p>
+ 
+  <p>Curry and Commentary is where the stories that don't fit anywhere else end up — some are just for laughs, some are about the food that raised me, and some are me thinking out loud about pop culture, identity, or whatever's been rattling around in my head that week.</p>
+ 
+  <p>Thanks for reading.</p>
 </main>
  
 </body>
