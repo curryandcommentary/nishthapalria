@@ -350,12 +350,13 @@ hr.rule { border: none; border-top: 1px solid var(--line); margin: 56px 0; }
 #sec-pop-culture .card-genre { color: #A67C2E; }
 #sec-fashion .card-genre { color: #6B4A6E; }
 #sec-food .card-genre { color: #A65C2E; }
+#sec-humor .card-genre { color: #C1583F; }
 #sec-health .card-genre { color: #3E7D6E; }
 #sec-career .card-genre { color: #3E5F82; }
 #sec-life .card-genre { color: #8C6B3F; }
-.trending-strip .trending-card:nth-child(1) .tag { color: #8C6B3F; }
+.trending-strip .trending-card:nth-child(1) .tag { color: #A65C2E; }
 .trending-strip .trending-card:nth-child(2) .tag,
-.trending-strip .trending-card:nth-child(3) .tag { color: #5C6B4F; }
+.trending-strip .trending-card:nth-child(3) .tag { color: #A67C2E; }
 
 /* first feature block on homepage — a true lead-story spread, not just a bigger card */
 #top > .entry-meta {
